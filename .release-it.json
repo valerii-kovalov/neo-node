@@ -1,10 +1,7 @@
 {
   "non-interactive": true,
   "force": false,
-  "pkgFiles": [
-    "package.json",
-    "www/manifest.json"
-  ],
+  "pkgFiles": [ "package.json" ],
   "buildCommand": "cordova-update-config --appversion ${version}",
   "increment": "patch",
   "commitMessage": "Release v%s",
@@ -13,9 +10,9 @@
   "changelogCommand": "git log --pretty=format:'* %s (%h)' [REV_RANGE]",
   "requireCleanWorkingDir": true,
   "npm": {
-    "publish": false
+    "publish": true
   },
   "github": {
-    "release": false
+    "release": true
   }
 }

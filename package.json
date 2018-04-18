@@ -1,7 +1,7 @@
 {
   "name": "neo-node",
   "version": "0.1.0",
-  "description": "",
+  "description": "Meta library for common Node.js dependencies necessary / recommended for developing Neo Sentinels.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,7 +10,7 @@
     "type": "git",
     "url": "git+https://github.com/neohelden/neo-node.git"
   },
-  "author": "Maik Hummel <yo@beevelop.com> (https://beevelop.com)",
+  "author": "Maik Hummel <maik@neohelden.com> (https://neohelden.com)",
   "license": "Apache-2.0",
   "bugs": {
     "url": "https://github.com/neohelden/neo-node/issues"
