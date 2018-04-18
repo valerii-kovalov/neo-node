@@ -1,6 +1,7 @@
 'use strict'
 
 module.exports = {
-  winston: require('./lib/winston'),
-  nats: require('./lib/nats')
+  log: require('./lib/log'),
+  task: require('./lib/task'),
+  i18n: require('./lib/i18n')
 }
