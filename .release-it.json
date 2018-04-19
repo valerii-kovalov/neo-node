@@ -2,7 +2,6 @@
   "non-interactive": true,
   "force": false,
   "pkgFiles": [ "package.json" ],
-  "buildCommand": "cordova-update-config --appversion ${version}",
   "increment": "patch",
   "commitMessage": "Release v%s",
   "tagName": "v%s",
