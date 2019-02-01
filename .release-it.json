@@ -6,8 +6,12 @@
   "commitMessage": "Release v%s",
   "tagName": "v%s",
   "tagAnnotation": "Release v%s",
-  "changelogCommand": "git log --pretty=format:'* %s (%h)' [REV_RANGE]",
-  "requireCleanWorkingDir": true,
+  "git": {
+    "requireCleanWorkingDir": true,
+  },
+  "scripts": {
+    "changelog": "git log --pretty=format:'* %s (%h)' [REV_RANGE]"
+  },
   "npm": {
     "publish": false
   },
