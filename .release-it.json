@@ -7,7 +7,7 @@
   "tagName": "v%s",
   "tagAnnotation": "Release v%s",
   "git": {
-    "requireCleanWorkingDir": true,
+    "requireCleanWorkingDir": true
   },
   "scripts": {
     "changelog": "git log --pretty=format:'* %s (%h)' [REV_RANGE]"
