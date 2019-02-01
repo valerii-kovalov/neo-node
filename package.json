@@ -1,6 +1,6 @@
 {
   "name": "neo-node",
-  "version": "0.3.3",
+  "version": "0.3.4",
   "description": "Meta library for common Node.js dependencies necessary / recommended for developing Neo Sentinels.",
   "main": "index.js",
   "scripts": {
