@@ -38,7 +38,7 @@ neotask.create('neo.aurora.intent.hello_world', {
 })
 
 // closing connection to the NATS
-neotask.closeConnection()
+neotask.disconnect()
 ```
 
 ## Logging (optional)
