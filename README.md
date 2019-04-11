@@ -36,6 +36,9 @@ neotask.process('neo.aurora.intent.hello_world', function (particle) {
 neotask.create('neo.aurora.intent.hello_world', {
   foo: 'bar'
 })
+
+// closing connection to the NATS
+neotask.closeConnection()
 ```
 
 ## Logging (optional)
